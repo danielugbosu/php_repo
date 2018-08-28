@@ -1,0 +1,261 @@
+/* general colors */
+a {color:orange;}
+body {background:#262626 url("images/pattern.png") repeat scroll 0 0; color:#444;}
+button { background:transparent; color:#262626; }
+input, textarea, .post_input_container { background:#191919; border:1px solid rgba(150, 180, 150, 0.2) !important; color:#676; }
+
+/* intro */
+#intro_top { background:#262626 url('images/background.jpg');  background-repeat:no-repeat;  background-size:auto auto;  background-position:top center; }
+#pop_registration { background-color:rgba(0,0,0,0.4);}
+#intro_content_left { background-color:rgba(0,0,0,0.4); text-shadow:2px 2px #000; color:#262626; }
+#intro_section_user { background:#262626 url("images/pattern.png") repeat scroll 0 0; color:#444; }
+
+/* button colors */
+.join_btn {
+    background: #00120a none repeat scroll 0 0;
+    color: #262626;
+}
+.rooms_button {
+    font-size: 15px;
+}
+.theme_btn { background:#ffb804; color:#262626; }
+.install_btn { background:#ffb804; color:#262626; }
+.default_btn { background:#ffb804; color:#262626; }
+.default_selected, .dark_selected { background:#ffb804; color:#262626; }
+.modal_selected { background:#e5a000; }
+.ok_btn { background:#5ca61b; color:#262626; }
+.warn_btn { background:orange; color:#262626; }
+.error_btn, .delete_btn, .uninstall_btn { background:#9f2d13; color:#262626; }
+.uploaded_file { background:#333; color:#262626; }
+#submit_button { background:#ffb804; background-clip: padding-box; border-radius: 50%; height: 50px; min-width: 0;overflow: hidden;width: 35px; position: absolute; right: 10%; top: 0; }
+#message_send{ background: #ffb804; border-radius: 50%; height: 30px; overflow: hidden; width: 40px; }
+
+#inputt_right { position: relative; }
+
+/* verify status colors */
+.verified { background:#5ca61b; color:#262626; }
+
+/* new element colors */
+.new_news {  background:#9f2d13; color:#262626; }
+
+/* input option background colors */
+.input_item { color:#ffffff; }
+
+/* background colors */
+.background_header { background:#121210; color:rgba(167, 167, 166,  0.7);  }
+.chat_head{ background:#121210; color:rgba(167, 167, 166,  0.4); border-bottom:1px solid #0f1719; }
+.chat_footer{ background:#ffb804; color:rgba(0, 0, 0, 0.54); border-top: 1px solid #00281b; box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.9), 0 0 1px 0 rgba(0, 0, 0, 0.4), 0 4px 1px -4px rgba(38, 38, 38,  0.5) inset;}
+.intro_footer { background:#121210; color:rgba(167, 167, 166,  0.7); }
+.background_box, .background_emo { background:#262626; color:#676;}
+.emo_head { background:#121210; color:rgba(167, 167, 166,  0.7); }
+.background_stream { background-color:rgba(0,0,0,0.9);}
+.modal_back { background-color:rgba(0,0,0,0.4); }
+.modal_top { background:#2C2B27; color:rgba(167, 167, 166,  0.7); }
+
+/* profile */
+.modal_menu { background:#ffb804; }
+.pro_zone { }
+.p_action { }
+
+/* menu icon */
+.menui { color:#ffb804; }
+.pagemenui { color:#ffb804; }
+.monline { color:#66ff33; }
+.moffline { color:#ff0000; }
+
+
+/* outside menu */
+.sub_menu { background:#262626; color:#676; box-shadow:0 0 1px 1px #111; }
+.sub_menu li { border-bottom:1px solid #332f2f; }
+.sub_menu li:hover { background:#332f2f; color:#676; }
+
+/* inside menu */
+.sub_menu_in { background:rgba(0, 0, 0, 0.12); }
+.sub_menu_in li:hover { background:rgba(0, 0, 0, 0.12); }
+.sub_menu_in li { border-top:1px solid rgba(0, 0, 0, 0.30) }
+
+/* side menu */
+#side_menu { background:#262626; box-shadow:0 0 2px 1px #111; }
+
+/* page menu */
+.side_menu_content ul li { border-bottom:1px solid #332f2f; }
+.page_menu ul li:hover, .side_menu_content ul li:hover { color:#ffb804; }
+.selectedp { color:#ffb804; }
+
+/* message error colors */
+.saved_ok { background-color:rgba(4, 77, 0, 0.8); color:#262626; }
+.saved_warn{ background-color:rgba(46, 196, 0, 0.8); color:#262626; }
+.saved_error { background-color:rgba(199, 57, 23, 0.8); color:#262626; }
+
+/* text error colors */
+.error, .decline, .new_report  { color:red; }
+.success, .default_option, .accept { color:green;}
+.warn, .roommed { color:orange; }
+
+/* logs color private and main chat */
+.log1 {	background:none; }
+.log2 { background:#1f1f1f; }
+.target_private {color:#262626; background:#636363;}
+.hunter_private {color:#262626; background:#ffb804;}
+
+/* text color  & date */
+.sub_text, #rules_box p, .date, .room_center, .topic_name, .help_text { color:#888; }
+.delete_log, .logs_date, .report_log, .pdate, .ptdate, .search_label { color:rgba(150, 170, 150, 0.4); }
+.theme_color, .liked, .unliked  { color:#ffb804;}
+.user_count  { background: #121210; color: #999; font-weight: normal; font-size: 14px;}
+.my_notice { background:#7cff90; padding:3px;}
+
+/* notification colors */
+.notification, .sm_notify, .pm_notify, .menu_notify, .bnotify { background:red; color:#262626; }
+
+/* admin dashboard box */
+.sp_box { background:#ffb804; color:#262626; }
+
+/* overlay item */
+.olay { background-color:rgba(0,0,0,0.5); color:#7d7d7d; }
+
+/* elements */ 
+.page_element, #private_box { background:#262626; box-shadow:0 0 2px 1px #111; }
+.user_box_content, .room_content { background:#262626;  box-shadow:0 0 2px 1px #111; }
+.modal_in { background:#262626; }
+.background_chat { background:#181818; }
+.chat_panel { background:#262626; }
+#chat_left { background: #2C2B27; color: rgba(150, 180, 150, 0.4); }
+#chat_right { background: #24231E; color: rgba(150, 180, 150, 0.4); }
+/* no view elements */
+.noview { background:#1A2320; }
+
+/* borders css */
+.border_right { border-right:1px solid #332f2f; }
+.border_left, #chat_right, #chat_center { border-left:1px solid #332f2f; }
+.border_bottom, .help_title, .status_list li, #player, .p_title, .element_title { border-bottom:1px solid #332f2f; }
+.border_top, #chat_right_data, .list_element, .gprofile_element, .admin_details  { border-top:1px solid rgba(0, 0, 0, 0.25); }
+.full_border, .background_emo { border:1px solid #332f2f; }
+.background_reply, .admin_element  { border-top:1px solid #868686; }
+
+/* list element */
+.background_reply, .admin_element { background:#1e1e1e; color:#676; }
+.admin_element:hover { background:#332f2f; }
+
+/* player color */
+.background_player { color:#ffb804; }
+
+/* slider */
+.boom_slider .ui-widget-content { background: #332f2f; }
+.boom_slider .ui-state-default { background: #999 !important; }
+.boom_slider .ui-state-active { background: #999 !important; }
+.boom_slider .ui-slider-range { background:#3c423c; }
+
+/* select box color */
+.selectboxit-list, .selectboxit-btn { background-color: #191919; border:none; color:#676;  border:1px solid rgba(150, 180, 150, 0.2) !important; } /* background of select box */
+.selectboxit-list .selectboxit-focus .selectboxit-option-anchor { background-color: #332f2f; color:#676; } /* color of sub menu hover */
+.selectboxit-default-arrow { border-top: 4px solid #676; }
+.selectboxit-btn.selectboxit-enabled:hover, .selectboxit-btn.selectboxit-enabled:focus, .selectboxit-btn.selectboxit-enabled:active { background:#262626; color:#676; } /* background selected hover */
+.selectboxit-options { background:#262626; border:1px solid #3c423c; } /* background color of the options */
+.selectboxit-list .selectboxit-option-anchor { color:#676; } /* color of sub menu item */
+
+/* user color and special user color */
+.offline { opacity: 0.4;}
+.offline:hover, .offline:focus { opacity: 1;}
+.user { color:#888; }
+.system { color:#676; }
+.chat_system { color:#999; }
+.bot { color:orange; }
+
+/* status color */
+.away { color:#333; }
+.absent { color:#21c611; }
+.gone { color:#dc6739; }
+.online { color:#4f944d; }
+.gaming { color:#7D636C; }
+.eating { color:#B7B7B7; }
+.invisible { color:#ffb804; }
+
+/* list icon colors */
+.ico_owner { color:#ffff00; font-size: 15px; }
+.ico_admin { color:#ffff00; font-size: 15x;}
+.ico_user { color:rgba(0, 0, 0, 0.54); font-size: 14px;}
+.ico_mod { color:rgba(0, 0, 0, 0.54); font-size: 14px;}
+.ico_vip { color:#03aad8; font-size: 14px;}
+.ico_guest { color:rgba(0, 0, 0, 0.54); font-size: 14px;}
+.ico_bot { color:#888; }
+.ico_radmin { color:#cc0033; }
+.ico_new { color:rgba(0, 0, 0, 0.54); font-size: 14px;}
+.is_muted { color:red; }
+.boy { color:#2196F3; }
+.girl { color:#E91E63; }
+
+
+/* list icon colors */
+
+#chat_right .in_room_icon  .ico_public { color:#807f2b; font-size: 14px;}
+#chat_right .in_room_icon .ico_owner { color:rgba(0, 0, 0, 0.54); font-size: 14px;}
+#chat_right .in_room_icon .ico_admin { color:rgba(55, 155, 155, 0.7); font-size: 14px;}
+#chat_right .in_room_icon .ico_user { color:#11c301; font-size: 14px;}
+#chat_right .in_room_icon .ico_mod { color:rgba(0, 0, 0, 0.54); font-size: 14px;}
+#chat_right .in_room_icon .ico_vip { color:rgba(55, 155, 155, 0.7); font-size: 14px;}
+#chat_right .in_room_icon .ico_guest { color:rgba(0, 0, 0, 0.54); font-size: 14px;}
+#chat_right .in_room_icon .ico_bot { color:#888; }
+#chat_right .in_room_icon .ico_radmin { color:#3a9227; }
+#chat_right .in_room_icon .ico_new { color:rgba(0, 0, 0, 0.54); font-size: 14px;}
+
+
+
+button .ico_guest,.p_item .ico_guest{ color:#aaaaaa; font-size: 14px;}
+button .ico_owner,.p_item .ico_owner{ color:#aaaaaa; font-size: 14px;}
+button .ico_admin,.p_item .ico_admin{ color:#aaaaaa; font-size: 14px;}
+button .ico_user,.p_item .ico_user{ color:#aaaaaa; font-size: 14px;}
+button .ico_mod,.p_item .ico_mod{ color:#aaaaaa; font-size: 14px;}
+button .ico_vip,.p_item .ico_vip{ color:#aaaaaa; font-size: 14px;}
+/* profile */
+.p_sex { background:#121210; }
+.p_rank { background:#121210; color:rgba(167, 167, 166,  0.7); }
+.p_age { background:#121210; color:rgba(167, 167, 166,  0.7); }
+.p_verified { background:#121210; color:#5ca61b; }
+.p_item {}
+.avatar_vprofile { border:5px solid rgba(167, 167, 166,  0.7); }
+
+/* custom */
+.rules_link { text-shadow:0px 0px 2px #555; }
+#warp_show_chat { border:1px solid #332f2f; }
+.menu_button { background:#ffb804; }
+#intro_content_left, #pop_registration { color:#262626; }
+#private_top { background:#ffb804; color:rgba(0, 0, 0, 0.54); }
+#private_content { border-bottom:1px solid #332f2f; }
+#search_room { background:#262626; }
+#private_control { padding-right: 4px; }
+#private_box { padding:0; }
+#content { background: #262626;}
+.element_color, .page_element, #private_box, .page_menu ul, .chat_side_panel, #side_menu, .room_content {
+    background: #1c1c1c none repeat scroll 0 0;
+}
+.post_element, .news_element {
+    background: rgba(38, 38, 38,  0.1) none repeat scroll 0 0 ;
+    margin-bottom: 6px;
+    padding: 8px;
+}
+#friend_post{
+    background: rgba(38, 38, 38,  0.5) none repeat scroll 0 0 !important;
+}
+.opacity_box {
+    background-color: rgba(38, 38, 38,  0.4);
+    color: #ddd;
+}
+.shadow_text {
+    text-shadow: 1px 1px #000;
+}
+.fancybox-skin
+{
+    background: #2C2B27;    
+}
+.not_member
+{
+    color: #5CA61B;
+}
+/* userslist */
+.user_count {  padding:10px; width:100%; font-size:13px; font-weight:normal; font-weight:bold;  }
+.user_spotlight {background: rgb(96,108,136);
+background: -moz-linear-gradient(top, rgb(96,108,136) 0%, rgb(63,76,107) 100%);
+background: -webkit-linear-gradient(top, rgb(96,108,136) 0%,rgb(63,76,107) 100%);
+background: linear-gradient(to bottom, rgb(96,108,136) 0%,rgb(63,76,107) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#606c88', endColorstr='#3f4c6b',GradientType=0 );  padding:10px; width:100%; font-size:12px; font-weight:normal; font-weight:bold;  }
